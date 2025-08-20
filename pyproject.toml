@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "5RP-robot"
+version = "0.1.0"
+description = "Modeling, control, and simulation of a 5RP robot (MuJoCo)"
+readme = "README.md"
+requires-python = ">=3.8.10, <3.9"
+license = { text = "MIT" }
+keywords = ["robotics", "mujoco", "kinematics", "dynamics"]
+
+dependencies = [
+  "matplotlib==3.7.5",
+  "mujoco==3.2.3",
+  "numpy==1.24.4",
+  "sympy==1.13.1",
+]
+
+[tool.setuptools]
+package-dir = {"" = "source"}
+
+[tool.setuptools.packages.find]
+where = ["source"]
