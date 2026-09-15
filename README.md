@@ -1,12 +1,9 @@
 ## Modeling, control, and simulation of a 5RP robot (MuJoCo)
-This project implements the **Modeling and control of a 5RP robot** and validates using the **MuJoCo** physics engine. It covers key robotics topics.
+This project implements the **modeling and control of a 5RP robot** and validates using the **MuJoCo** physics engine. It covers key robotics topics.
 
-https://github.com/user-attachments/assets/bf43048f-ca78-452c-93fd-dd6e6553f2d4
+https://github.com/user-attachments/assets/f9af8e9d-b5ae-4d3b-bcb9-022d286ebe08
 
-https://github.com/user-attachments/assets/2ecd5799-d854-4b9d-bc96-b2efa46c93ae
-
-
-> **Note.** This project was completed as the final project for a robotics course at the University of Tehran. The work closely follows *Introduction to Robotics: Mechanics and Control* by John J. Craig (except where noted). The course required a 5RP configuration for that I started from the UR5e XML available in the MuJoCo gallery, disabled the original wrist 1 joint, and added a linear actuator at the end-effector to get 5RP. The gallery XML did not use the DH frame convention from Craig, so I reassigned frames in the XML and updated link masses and inertia tensors accordingly.
+> **Note.** This project was completed as the final project for a robotics course at the University of Tehran. The work closely follows *Introduction to Robotics: Mechanics and Control* by John J. Craig (except where noted). The course required a 5RP configuration for that I started from the UR5e XML available in the MuJoCo menagerie, disabled the original wrist 1 joint, and added a linear actuator at the end-effector to get 5RP. The XML did not use the DH frame convention from Craig, so I reassigned frames in the XML and updated link masses and inertia tensors accordingly.
 ## Algorithms
 <details>
   <summary><b>Kinematics</b></summary>
